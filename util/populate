@@ -1,0 +1,4 @@
+#!/bin/bash
+
+routesFile=$(dirname $0)/data/malha.txt
+curl -d content="$(cat $routesFile)" localhost:8080/v1/map/bacon

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl localhost:8080/v1/map/bacon/trace\?origin=A\&target=D\&autonomy=10\&fuelCost=2.50
